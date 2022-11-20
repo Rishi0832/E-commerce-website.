@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,400;1,500&family=Kanit&family=Merriweather:wght@700&family=Roboto+Slab&display=swap');
+
+:root {
+  --yellow: #ffa751;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  transition: all .2s linear;
+  box-sizing: border-box;
+  outline: none;
+  text-transform: capitalize;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.0rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 350;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1.0rem;
+  font-weight: 200;
+}
+
+hr {
+  width: 40px;
+  height: 20px;
+  background-color: #ff9a36;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  box-shadow: 0 5px 10px rgba(0 0 0 0.1);
+}
+
+.bg-light {
+  display: fixed;
+  background-attachment: fixed;
+}
+
+.navbar .container {
+  margin-right: px;
+  margin-left: px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0 18px;
+  color: black;
+  transition: 0.3s ease;
+
+}
+.navbar-brand{
+  margin-left: 90px;
+  color: var(--yellow);
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  font-size: 60px;
+  
+  display: flex;
+  background-attachment: fixed;
+}
+
+.sign .nav-link {
+  color: black;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link:active {
+  color: var(--yellow)
+}
+
+
+
+.sign {
+  margin-left: 50px;
+  letter-spacing: 5;
+  display: flex;
+  align-items: center;
+}
+
+.sign .bi{
+  margin: 0 20px 0 0px;
+  cursor: pointer;
+  color: black;
+  transition: 0.3 all ease;
+  
+}
+
+.sign .bi:hover,
+.sign .bi:active{
+  color: var(--yellow);
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  #navbarSupportedContent> div.navbar-nav {
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  #navbarSupportedContent > div.sign{
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  #redmi-5 {
+    opacity: 0;
+  }
+  #redmi-k50{
+    opacity: 0;
+  }
+  #redmi-11{
+    opacity: 0;
+  }
+
+  
+}
+
+@media only screen and (max-width: 320px) {
+  body > nav > div > a {
+  margin-right: 100px;
+  }
+}
+
+
+
+
+
+.navbar-toggler #bar {
+
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0 0px;
+
+}
+
+
+
+.home img {
+  background-size: cover;
+
+}
+
+.carousel-inner {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: wrap;
+}
+
+
+
+
+
+
+
+.carousel-item button {
+  position: absolute;
+  left: 360px;
+  bottom: 17.5%;
+  z-index: 1;
+  transform: translateY(-100%);
+}
+
+.carousel-item #redmi-5 {
+  padding: 7px 15px;
+  background-color: black;
+  color: white;
+}
+
+.carousel-item #redmi-k50 {
+  padding: 7px 15px;
+  background-color: black;
+  color: white;
+}
+
+.carousel-item #redmi-11 {
+  padding: 7px 15px;
+  background-color: black;
+  color: white;
+}
+
+
+/* recommended */
+
+
+.product {
+  cursor: pointer;
+
+}
+
+.boob {
+  background-color: rgb(255, 251, 251);
+
+
+}
+
+.product .buy-btn {
+  background-color: var(--yellow);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+
+}
+
+.product:hover .buy-btn {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+.product .link {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+.product .link:hover,
+.product .link:active {
+  color: var(--yellow);
+}
+
+.product:hover img {
+  opacity: 0.8;
+}
+
+.product img {
+  transition: 0.3 all ease;
+}
+
+span {
+  color: var(--yellow);
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn4{
+  height: 45px;
+  width: 90%;
+  background-color: var(--yellow);
+  color: white;
+  outline: none;
+  border:none;
+  cursor: pointer;
+  display: inline-block;
+  
+
+}
+
+.contact input{
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: grey;
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+
+
+
+
+}
+
+
+
+
+
+
+
+/* login.html  */
+
+.body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 25px;
+  background: #f5f5f5;
+
+}
+
+@media (width >=500px) {
+  .body {
+    padding: 0;
+  }
+}
+
+.background {
+  position: fixed;
+  top: -50vmin;
+  left: -50vmin;
+  width: 100vmin;
+  height: 100vmin;
+  border-radius: 47% 53% 61% 39% / 45% 51% 49% 55%;
+  background: #65c8ff;
+}
+
+.background::after {
+  content: "";
+  position: inherit;
+  right: -50vmin;
+  bottom: -55vmin;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: #143d81;
+
+}
+
+.login-card {
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  margin: 0 20px;
+  padding: 120px 25px 48px;
+  border-radius: 1.25rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 100px 100px rgb(0 0 0 / 10%);
+}
+
+.login-card::before {
+  content: "";
+  position: absolute;
+  top: -880px;
+  left: 50%;
+  translate: -50% 0;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background: #216ce7;
+
+}
+
+@media (width >=500px) {
+  .login-card {
+    margin: 0;
+    width: 360px;
+  }
+
+  @media (width <=500px) {
+    .login-card {
+      margin: 0;
+      width: 100px;
+      height: 250px;
+    }
+  }
+
+
+}
+
+.login-card>h2 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 0 30px;
+  color: #2a3444;
+}
+
+.login-card>footer {
+  color: #a1a1a1;
+
+}
+
+.login-card>footer {
+  color: #216ce7;
+
+}
+
+.login-form {
+  display: grid;
+  gap: 16px;
+  margin: 0 0 36px;
+
+}
+
+.login-form>input,
+.login-form>button {
+  width: 100%;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.login-form>input {
+  border: 2px solid #ebebeb;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 0 24px;
+  color: #11274c;
+}
+
+.login-form>input::placeholder {
+  color: #cac8c8;
+}
+
+.password>input {
+  width: 100%;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.password>input {
+  border: 2px solid #ebebeb;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 0 24px;
+  color: #11274c;
+}
+
+.password::placeholder {
+  color: #cac8c8;
+}
+
+.login-form>button {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background: #216ce7;
+  color: #f9f9f9;
+  border: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.375s;
+}
+
+.toggle {
+  position: absolute;
+  top: 65%;
+  right: 42px;
+  translate: 0 -50%;
+  background-image: url("eye-fill.svg");
+  border: none;
+  background: none;
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.toggle.showing {
+  background-image: url("eye-slash-fill.svg");
+}
+
